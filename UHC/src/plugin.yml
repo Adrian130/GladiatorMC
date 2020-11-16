@@ -1,0 +1,85 @@
+version: 1.0
+author: kaywhyes
+main: xyz.velium.uhc.UHC
+name: UHC
+
+commands:
+  teleport:
+    description: Teleport Command
+    permission: uhc.host
+    aliases: ['tp', 'goto']
+  respawn:
+    description: Respawn Command
+    permission: uhc.host
+  backpack:
+    description: BackPack Command
+    aliases: ['bp']
+  staffnotifications:
+    description: Staff Notifications
+    aliases: ['togglenotify']
+    permission: uhc.host
+  helpop:
+    description: HelpOP Command
+    aliases: ['ho']
+  latescatter:
+    description: Latescatter Command
+    aliases: ['latejoin']
+  debug:
+    description: Debug Command
+    permission: uhc.admin
+    aliases: ['uhchelp']
+  forcepvp:
+    description: PvP Command
+    permission: uhc.host
+  team:
+    description: Team Command
+    aliases: ['teams']
+  teamlist:
+    description: Team List Command
+    aliases: ['tl']
+  practice:
+    description: Practice Command
+    aliases: ['arena', 'a']
+  setlocation:
+    description: Location Command
+    aliases: ['setloc']
+  config:
+    description: Config Command
+    aliases: ['configuration']
+  host:
+    description: Host Command
+    aliases: ['gamehost']
+    permission: uhc.host
+  moderator:
+    description: Moderator Command
+    aliases: ['mod']
+    permission: uhc.host
+  whitelist:
+    description: Whitelist Command
+    aliases: ['wl']
+    permission: uhc.host
+  start:
+    description: Start Command
+    permission: uhc.host
+  scenarios:
+    description: Scenario COmmand
+    aliases: ['explain']
+  scenarioeditor:
+    description: Scenario Editor Command
+    aliases: ['editscenarios']
+    permission: uhc.host
+  health:
+    description: Health Command
+    aliases: ['h']
+  game:
+    description: Game Command
+    aliases: ['edit', 'setup']
+  killcount:
+    description: KillCount Command
+    aliases: ['kc']
+  killtop:
+    description: KillTop Command
+    aliases: ['kt']
+  list:
+    description: List Command
+    aliases: ['info']
